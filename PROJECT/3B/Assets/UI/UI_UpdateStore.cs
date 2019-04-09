@@ -196,7 +196,7 @@ public class UI_UpdateStore : MonoBehaviour
                         int.TryParse(num.text, out number);
 
                         if (category == "repairKits") PlayerPrefs.SetInt(category, number);
-                        else if (category == "repairKits") PlayerPrefs.SetInt(category, number);
+                        else if (category == "swivelShots") PlayerPrefs.SetInt(category, number);
                         else PlayerPrefs.SetInt(category, number - 1);
 
                         UpdateStore(category);
